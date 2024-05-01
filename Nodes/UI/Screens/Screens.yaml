@@ -748,3 +748,43 @@ Children:
       DataType: SortOrderEnum
       ModellingRule: Optional
       Value: 1
+- Name: Screen5
+  Id: g=cdd40328d347929546d44f32e799f5ea
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Sparkline1
+    Type: Sparkline
+    Children:
+    - Name: PenValue
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/ProjetoTeste001/CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Tags/Controller Tags/Trends/1/Output"
+    - Name: TimeWindow
+      Type: BaseDataVariableType
+      DataType: Duration
+      Value: "0:00:00:10.0000000"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 720.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 440.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
