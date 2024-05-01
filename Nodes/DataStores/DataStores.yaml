@@ -64,6 +64,14 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
+        - Name: VariableToSample1
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: VariableToSample2
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
   - Class: Reference
     Target: ns=11;i=30
     Direction: Forward
