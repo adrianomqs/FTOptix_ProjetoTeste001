@@ -1,0 +1,136 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: Trends000_Output
+  Id: g=c652751662b97048b00218199e4ab331
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=a6bd776b47381c6ebd4f0a397bb30a33
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ea8bc3222081f7ea858f7f67a9182e26
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Tags/Controller Tags/Trends/0/Output"
+      Children:
+      - Name: Mode
+        Id: g=c6740ed9087681b6237d9f9110b81ce9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=858d3d0ec395716adb70c6f2a1ed3dba
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=9;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=83
+    Direction: Forward
+  - Name: HighHighLimit
+    Id: g=c0a8424e3f417fcf761fa34e49f0e3bd
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 50.0
+  - Name: HighLimit
+    Id: g=d492eea6319abe7da21fc20a01690330
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 48.0
+  - Name: LowLimit
+    Id: g=1c1bc9e527da33f463e11ba80a4a61c0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 20.0
+  - Name: LowLowLimit
+    Id: g=f2ad210e54a4e64b7115997d62ae6df5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: AutoAcknowledge
+    Id: g=055c303ea90c8734cb9450b14a8f5207
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=99bbadb0670c7b2b3725238588e1e5c3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: Trends001_Output
+  Id: g=29213e1a8c224d0a7b1f721bc442c9f2
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=986c8bee8e40db47dac03e66945e60e4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=e3ac683ced43bccd8ec0e0e8c6b424c3
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Tags/Controller Tags/Trends/1/Output"
+      Children:
+      - Name: Mode
+        Id: g=2cb25a43e8b5513181e46142ceee6188
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=068954cedde2667a4f393fb48cd84fee
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=9;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=83
+    Direction: Forward
+  - Name: HighHighLimit
+    Id: g=e9d9f5262be4a77006001a9b725a00ad
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 50.0
+  - Name: HighLimit
+    Id: g=f6a28a03579795959126e2cfd6d72ea7
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 48.0
+  - Name: LowLimit
+    Id: g=f81fbf3a97e6bddbeceda79ae3995176
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 20.0
+  - Name: LowLowLimit
+    Id: g=0f41c62526d47c7834eb291a100b21bb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: AutoAcknowledge
+    Id: g=facd390db21d6219e5e66f0ba837b656
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=e5fbda0cb03114be5a79bf854616899d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

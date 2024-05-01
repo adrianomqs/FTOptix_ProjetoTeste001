@@ -1,0 +1,70 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: xGblSimMode
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "xGblSimMode"
+- Name: Trends
+  Type: Trend_Simula
+  DataType: Trend_Simula
+  ValueRank: OneDimension
+  ArrayDimensions: [1000]
+  Children:
+  - Name: 0
+    Type: Trend_Simula
+    DataType: Trend_Simula
+    Children:
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Trends[0].Output"
+  - Name: 1
+    Type: Trend_Simula
+    DataType: Trend_Simula
+    Children:
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Trends[1].Output"
+  - Name: 2
+    Type: Trend_Simula
+    DataType: Trend_Simula
+    Children:
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Trends[2].Output"
+  - Name: 3
+    Type: Trend_Simula
+    DataType: Trend_Simula
+    Children:
+    - Name: Output
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Trends[3].Output"

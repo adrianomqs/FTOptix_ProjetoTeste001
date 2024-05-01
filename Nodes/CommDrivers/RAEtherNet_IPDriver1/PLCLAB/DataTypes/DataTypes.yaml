@@ -1,0 +1,59 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Trend_Simula
+  Id: g=551ff925752fa0b6ca4eeeb2de27f565
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Trend_Simula",
+    "DataType": {
+     "IdType": 2,
+     "Id": "551ff925752fa0b6ca4eeeb2de27f565",
+     "Namespace": 13
+    },
+    "Fields": [{
+      "Name": "Amplitude",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "F",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "FaseInc",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "FS",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "M_Phase",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Ons",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Output",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Trend_Simula"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
