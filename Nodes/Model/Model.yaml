@@ -1,2 +1,39 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: Flex_Valve_UI
+  Id: g=a057c804c086142e6a2118232303f2c8
+  Supertype: BaseObjectType
+  Children:
+  - Name: Plc
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/ProjetoTeste001/CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Types/VariableTypes/Flex_CM_Valve"
+  - Name: OpenValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CloseValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Tag
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "..@BrowseName"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2

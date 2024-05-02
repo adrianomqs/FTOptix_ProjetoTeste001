@@ -1,0 +1,118 @@
+Name: Tags
+Id: g=b4ae88ef5a6849ed9dfc1a6c1ca253d8
+Type: FolderType
+Children:
+- Name: 100VA01
+  Id: g=3a653f0f3679bf70032541dd32cfa112
+  Type: Flex_Valve_UI
+  Children:
+  - Name: Plc
+    Id: g=8d009dde7d0accf404950a75cd480b4f
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/ProjetoTeste001/CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Tags/Controller Tags/_100VA01"
+    Children:
+    - Name: Kind
+      Id: g=a9f27bdebf919a6d885fa93657069344
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/ProjetoTeste001/CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Types/VariableTypes/Flex_CM_Valve"
+  - Name: OpenValue
+    Id: g=289ef794a2e76a049e719da1213799e8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CloseValue
+    Id: g=b0edadf433a5096e9bb19eb9c159db6e
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Tag
+    Id: g=6afd8f9ad4b4b4d276febf39acfab0dd
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "100VA01"
+    Children:
+    - Name: DynamicLink
+      Id: g=026baa0f072a737cce47c5a180c36ab2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "..@BrowseName"
+- Name: 100VA02
+  Id: g=dba9c4f1ae8b24742af561e95f8a6656
+  Type: Flex_Valve_UI
+  Children:
+  - Name: Plc
+    Id: g=960780a5c160939a8d2d62baa0342f37
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/ProjetoTeste001/CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Tags/Controller Tags/_100VA02"
+    Children:
+    - Name: Kind
+      Id: g=0b322563bffcbf4d20afae7d928230ec
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/ProjetoTeste001/CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Types/VariableTypes/Flex_CM_Valve"
+  - Name: OpenValue
+    Id: g=7c83cfa93d576cd410f911ebca4295dd
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CloseValue
+    Id: g=3050b150fdebe974f7b9f8c3f3432913
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Tag
+    Id: g=eead5bade73b1d249b845fe26cb49999
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "..@BrowseName"
+    Children:
+    - Name: DynamicLink
+      Id: g=5427abc322e528a88d1744cf9ea73155
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "..@BrowseName"
+      Children:
+      - Name: Mode
+        Id: g=316bc346990e1c41ddd11ad60e3d6f2b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: 100VA03
+  Id: g=3d6c9886d1d1776d22bda73a693e7fa6
+  Type: Flex_Valve_UI
+  Children:
+  - Name: Plc
+    Id: g=093b34c56b06b5a6a0228f4e9eaf5e8c
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/ProjetoTeste001/CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Tags/Controller Tags/_100VA03"
+    Children:
+    - Name: Kind
+      Id: g=018faee4678dc7538ba2d7e38bd99c9c
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/ProjetoTeste001/CommDrivers/RAEtherNet_IPDriver1/PLCLAB/Types/VariableTypes/Flex_CM_Valve"
+  - Name: OpenValue
+    Id: g=5a85319e79dd9b09be87e04a723c4587
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CloseValue
+    Id: g=7b0298c972dc071201b649760b02f7ec
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Tag
+    Id: g=df344bbaf8faee1d2d66a041f0513f98
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "100VA02"
+    Children:
+    - Name: DynamicLink
+      Id: g=626eb7ee5c0223d513e3f8fc5812ff62
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "..@BrowseName"

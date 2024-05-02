@@ -1,0 +1,5 @@
+Name: Globais
+Type: FolderType
+Children:
+- File: CM/CM.yaml
+- File: FCP/FCP.yaml

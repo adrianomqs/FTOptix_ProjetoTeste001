@@ -2,6 +2,282 @@ Name: DataTypes
 Type: FolderType
 Children:
 - Class: DataType
+  Name: Flex_CM_Valve
+  Id: g=4c916e9625d3debb1657cd31ea746d07
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Flex_CM_Valve",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4c916e9625d3debb1657cd31ea746d07",
+     "Namespace": 13
+    },
+    "Fields": [{
+      "Name": "Alm_Close",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Alm_Cycles",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Alm_Open",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Alm_Summary",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_ActTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cfg_AlmCloseTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cfg_AlmOpenTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cfg_AreaResetEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_BypassInterlock",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_CyclesLimit",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cfg_DblActionEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_DeactTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cfg_FBCloseEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_FBOpenEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_GlobalResetEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_OutOnTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cmd_AlmReset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Auto",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_AutoMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Close",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_CyclesAlmEn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_LiftLower",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_LiftUpper",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_MaintMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ManMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Open",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ResetCycles",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_Alarms",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "HMI_Read",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "HMI_Write",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ID",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_CommLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_Emergency",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_FBClose",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_FBOpen",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_LockedProcess",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_LockedSecurity",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Out_S1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_S2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_S3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_AlmNotAck",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Auto",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Close",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Condition",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Cycles",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Device",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Maint",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Man",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Open",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Flex_CM_Valve"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: Trend_Simula
   Id: g=551ff925752fa0b6ca4eeeb2de27f565
   Supertype: Structure

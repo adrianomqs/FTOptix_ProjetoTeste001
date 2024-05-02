@@ -59,6 +59,8 @@ Children:
 - Name: AlarmConfiguration
   Type: PropertyGroup
 - File: UI/UI.yaml
+- File: Globais/Globais.yaml
+- File: Tags/Tags.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml
 - File: Alarms/Alarms.yaml

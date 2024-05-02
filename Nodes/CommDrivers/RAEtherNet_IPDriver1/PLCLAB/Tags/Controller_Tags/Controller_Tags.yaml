@@ -10,6 +10,1917 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "xGblSimMode"
+- Name: _100VA01
+  Id: g=fb60090eb762ee5f155ed03120c402ae
+  Type: Flex_CM_Valve
+  DataType: Flex_CM_Valve
+  Children:
+  - Name: Alm_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Alm_Close"
+  - Name: Alm_Cycles
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Alm_Cycles"
+  - Name: Alm_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Alm_Open"
+  - Name: Alm_Summary
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Alm_Summary"
+  - Name: Cfg_ActTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_ActTime"
+  - Name: Cfg_AlmCloseTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_AlmCloseTime"
+  - Name: Cfg_AlmOpenTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_AlmOpenTime"
+  - Name: Cfg_AreaResetEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_AreaResetEn"
+  - Name: Cfg_BypassInterlock
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_BypassInterlock"
+  - Name: Cfg_CyclesLimit
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_CyclesLimit"
+  - Name: Cfg_DblActionEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_DblActionEn"
+  - Name: Cfg_DeactTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_DeactTime"
+  - Name: Cfg_FBCloseEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_FBCloseEn"
+  - Name: Cfg_FBOpenEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_FBOpenEn"
+  - Name: Cfg_GlobalResetEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_GlobalResetEn"
+  - Name: Cfg_OutOnTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cfg_OutOnTime"
+  - Name: Cmd_AlmReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_AlmReset"
+  - Name: Cmd_Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_Auto"
+  - Name: Cmd_AutoMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_AutoMode"
+  - Name: Cmd_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_Close"
+  - Name: Cmd_CyclesAlmEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_CyclesAlmEn"
+  - Name: Cmd_LiftLower
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_LiftLower"
+  - Name: Cmd_LiftUpper
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_LiftUpper"
+  - Name: Cmd_MaintMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_MaintMode"
+  - Name: Cmd_ManMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_ManMode"
+  - Name: Cmd_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_Open"
+  - Name: Cmd_ResetCycles
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Cmd_ResetCycles"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.EnableOut"
+  - Name: HMI_Alarms
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.HMI_Alarms"
+  - Name: HMI_Read
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.HMI_Read"
+  - Name: HMI_Write
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.HMI_Write"
+  - Name: ID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.ID"
+  - Name: Inp_CommLoss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Inp_CommLoss"
+  - Name: Inp_Emergency
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Inp_Emergency"
+  - Name: Inp_FBClose
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Inp_FBClose"
+  - Name: Inp_FBOpen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Inp_FBOpen"
+  - Name: Inp_LockedProcess
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Inp_LockedProcess"
+  - Name: Inp_LockedSecurity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Inp_LockedSecurity"
+  - Name: Out_S1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Out_S1"
+  - Name: Out_S2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Out_S2"
+  - Name: Out_S3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Out_S3"
+  - Name: Sts_AlmNotAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Sts_AlmNotAck"
+  - Name: Sts_Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Sts_Auto"
+  - Name: Sts_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Sts_Close"
+  - Name: Sts_Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Sts_Condition"
+  - Name: Sts_Cycles
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Sts_Cycles"
+  - Name: Sts_Device
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Sts_Device"
+  - Name: Sts_Maint
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Sts_Maint"
+  - Name: Sts_Man
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Sts_Man"
+  - Name: Sts_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA01.Sts_Open"
+  - Name: Close_Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Open_Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: OpenValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CloseValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: _100VA02
+  Id: g=3d51e2ab90c6a3d6bfd63735e214e059
+  Type: Flex_CM_Valve
+  DataType: Flex_CM_Valve
+  Children:
+  - Name: Alm_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Alm_Close"
+  - Name: Alm_Cycles
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Alm_Cycles"
+  - Name: Alm_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Alm_Open"
+  - Name: Alm_Summary
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Alm_Summary"
+  - Name: Cfg_ActTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_ActTime"
+  - Name: Cfg_AlmCloseTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_AlmCloseTime"
+  - Name: Cfg_AlmOpenTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_AlmOpenTime"
+  - Name: Cfg_AreaResetEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_AreaResetEn"
+  - Name: Cfg_BypassInterlock
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_BypassInterlock"
+  - Name: Cfg_CyclesLimit
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_CyclesLimit"
+  - Name: Cfg_DblActionEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_DblActionEn"
+  - Name: Cfg_DeactTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_DeactTime"
+  - Name: Cfg_FBCloseEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_FBCloseEn"
+  - Name: Cfg_FBOpenEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_FBOpenEn"
+  - Name: Cfg_GlobalResetEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_GlobalResetEn"
+  - Name: Cfg_OutOnTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cfg_OutOnTime"
+  - Name: Cmd_AlmReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_AlmReset"
+  - Name: Cmd_Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_Auto"
+  - Name: Cmd_AutoMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_AutoMode"
+  - Name: Cmd_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_Close"
+  - Name: Cmd_CyclesAlmEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_CyclesAlmEn"
+  - Name: Cmd_LiftLower
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_LiftLower"
+  - Name: Cmd_LiftUpper
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_LiftUpper"
+  - Name: Cmd_MaintMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_MaintMode"
+  - Name: Cmd_ManMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_ManMode"
+  - Name: Cmd_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_Open"
+  - Name: Cmd_ResetCycles
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Cmd_ResetCycles"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.EnableOut"
+  - Name: HMI_Alarms
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.HMI_Alarms"
+  - Name: HMI_Read
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.HMI_Read"
+  - Name: HMI_Write
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.HMI_Write"
+  - Name: ID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.ID"
+  - Name: Inp_CommLoss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Inp_CommLoss"
+  - Name: Inp_Emergency
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Inp_Emergency"
+  - Name: Inp_FBClose
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Inp_FBClose"
+  - Name: Inp_FBOpen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Inp_FBOpen"
+  - Name: Inp_LockedProcess
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Inp_LockedProcess"
+  - Name: Inp_LockedSecurity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Inp_LockedSecurity"
+  - Name: Out_S1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Out_S1"
+  - Name: Out_S2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Out_S2"
+  - Name: Out_S3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Out_S3"
+  - Name: Sts_AlmNotAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Sts_AlmNotAck"
+  - Name: Sts_Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Sts_Auto"
+  - Name: Sts_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Sts_Close"
+  - Name: Sts_Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Sts_Condition"
+  - Name: Sts_Cycles
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Sts_Cycles"
+  - Name: Sts_Device
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Sts_Device"
+  - Name: Sts_Maint
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Sts_Maint"
+  - Name: Sts_Man
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Sts_Man"
+  - Name: Sts_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA02.Sts_Open"
+  - Name: Close_Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Open_Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: OpenValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CloseValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: _100VA03
+  Id: g=a668b63a30ddcff0fcb8f44acbc363fd
+  Type: Flex_CM_Valve
+  DataType: Flex_CM_Valve
+  Children:
+  - Name: Alm_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Alm_Close"
+  - Name: Alm_Cycles
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Alm_Cycles"
+  - Name: Alm_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Alm_Open"
+  - Name: Alm_Summary
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Alm_Summary"
+  - Name: Cfg_ActTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_ActTime"
+  - Name: Cfg_AlmCloseTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_AlmCloseTime"
+  - Name: Cfg_AlmOpenTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_AlmOpenTime"
+  - Name: Cfg_AreaResetEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_AreaResetEn"
+  - Name: Cfg_BypassInterlock
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_BypassInterlock"
+  - Name: Cfg_CyclesLimit
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_CyclesLimit"
+  - Name: Cfg_DblActionEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_DblActionEn"
+  - Name: Cfg_DeactTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_DeactTime"
+  - Name: Cfg_FBCloseEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_FBCloseEn"
+  - Name: Cfg_FBOpenEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_FBOpenEn"
+  - Name: Cfg_GlobalResetEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_GlobalResetEn"
+  - Name: Cfg_OutOnTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cfg_OutOnTime"
+  - Name: Cmd_AlmReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_AlmReset"
+  - Name: Cmd_Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_Auto"
+  - Name: Cmd_AutoMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_AutoMode"
+  - Name: Cmd_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_Close"
+  - Name: Cmd_CyclesAlmEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_CyclesAlmEn"
+  - Name: Cmd_LiftLower
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_LiftLower"
+  - Name: Cmd_LiftUpper
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_LiftUpper"
+  - Name: Cmd_MaintMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_MaintMode"
+  - Name: Cmd_ManMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_ManMode"
+  - Name: Cmd_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_Open"
+  - Name: Cmd_ResetCycles
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Cmd_ResetCycles"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.EnableOut"
+  - Name: HMI_Alarms
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.HMI_Alarms"
+  - Name: HMI_Read
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.HMI_Read"
+  - Name: HMI_Write
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.HMI_Write"
+  - Name: ID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.ID"
+  - Name: Inp_CommLoss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Inp_CommLoss"
+  - Name: Inp_Emergency
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Inp_Emergency"
+  - Name: Inp_FBClose
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Inp_FBClose"
+  - Name: Inp_FBOpen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Inp_FBOpen"
+  - Name: Inp_LockedProcess
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Inp_LockedProcess"
+  - Name: Inp_LockedSecurity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Inp_LockedSecurity"
+  - Name: Out_S1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Out_S1"
+  - Name: Out_S2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Out_S2"
+  - Name: Out_S3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Out_S3"
+  - Name: Sts_AlmNotAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Sts_AlmNotAck"
+  - Name: Sts_Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Sts_Auto"
+  - Name: Sts_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Sts_Close"
+  - Name: Sts_Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Sts_Condition"
+  - Name: Sts_Cycles
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Sts_Cycles"
+  - Name: Sts_Device
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Sts_Device"
+  - Name: Sts_Maint
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Sts_Maint"
+  - Name: Sts_Man
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Sts_Man"
+  - Name: Sts_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_100VA03.Sts_Open"
+  - Name: Close_Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Open_Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: OpenValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CloseValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: VA01
+  Type: Flex_CM_Valve
+  DataType: Flex_CM_Valve
+  Children:
+  - Name: Alm_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Alm_Close"
+  - Name: Alm_Cycles
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Alm_Cycles"
+  - Name: Alm_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Alm_Open"
+  - Name: Alm_Summary
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Alm_Summary"
+  - Name: Cfg_ActTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_ActTime"
+  - Name: Cfg_AlmCloseTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_AlmCloseTime"
+  - Name: Cfg_AlmOpenTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_AlmOpenTime"
+  - Name: Cfg_AreaResetEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_AreaResetEn"
+  - Name: Cfg_BypassInterlock
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_BypassInterlock"
+  - Name: Cfg_CyclesLimit
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_CyclesLimit"
+  - Name: Cfg_DblActionEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_DblActionEn"
+  - Name: Cfg_DeactTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_DeactTime"
+  - Name: Cfg_FBCloseEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_FBCloseEn"
+  - Name: Cfg_FBOpenEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_FBOpenEn"
+  - Name: Cfg_GlobalResetEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_GlobalResetEn"
+  - Name: Cfg_OutOnTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cfg_OutOnTime"
+  - Name: Cmd_AlmReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_AlmReset"
+  - Name: Cmd_Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_Auto"
+  - Name: Cmd_AutoMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_AutoMode"
+  - Name: Cmd_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_Close"
+  - Name: Cmd_CyclesAlmEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_CyclesAlmEn"
+  - Name: Cmd_LiftLower
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_LiftLower"
+  - Name: Cmd_LiftUpper
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_LiftUpper"
+  - Name: Cmd_MaintMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_MaintMode"
+  - Name: Cmd_ManMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_ManMode"
+  - Name: Cmd_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_Open"
+  - Name: Cmd_ResetCycles
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Cmd_ResetCycles"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.EnableOut"
+  - Name: HMI_Alarms
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.HMI_Alarms"
+  - Name: HMI_Read
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.HMI_Read"
+  - Name: HMI_Write
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.HMI_Write"
+  - Name: ID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.ID"
+  - Name: Inp_CommLoss
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Inp_CommLoss"
+  - Name: Inp_Emergency
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Inp_Emergency"
+  - Name: Inp_FBClose
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Inp_FBClose"
+  - Name: Inp_FBOpen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Inp_FBOpen"
+  - Name: Inp_LockedProcess
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Inp_LockedProcess"
+  - Name: Inp_LockedSecurity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Inp_LockedSecurity"
+  - Name: Out_S1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Out_S1"
+  - Name: Out_S2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Out_S2"
+  - Name: Out_S3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Out_S3"
+  - Name: Sts_AlmNotAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Sts_AlmNotAck"
+  - Name: Sts_Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Sts_Auto"
+  - Name: Sts_Close
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Sts_Close"
+  - Name: Sts_Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Sts_Condition"
+  - Name: Sts_Cycles
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Sts_Cycles"
+  - Name: Sts_Device
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Sts_Device"
+  - Name: Sts_Maint
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Sts_Maint"
+  - Name: Sts_Man
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Sts_Man"
+  - Name: Sts_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VA01.Sts_Open"
+  - Name: OpenValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CloseValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
 - Name: Trends
   Type: Trend_Simula
   DataType: Trend_Simula
@@ -17,6 +1928,7 @@ Children:
   ArrayDimensions: [1000]
   Children:
   - Name: 0
+    Id: g=0f1424d5de27b94d57500da70dea5551
     Type: Trend_Simula
     DataType: Trend_Simula
     Children:
